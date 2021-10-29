@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Nav from './components/Nav';
 
 function App() {
@@ -20,10 +21,15 @@ function App() {
     }
   ];
 
+  const [currentCategory, setCurrentCategory] = useState(categories[1]);
+
+
   return (
     <div>
       <Nav
         categories={categories}
+        currentCategory={currentCategory}
+        setCurrentCategory={setCurrentCategory}
       ></Nav>
     </div>
   );

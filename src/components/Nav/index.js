@@ -6,19 +6,24 @@ function Nav(props) {
     } = props;
 
     return (
-        <header>
-            <h1>ZS</h1>
-            <ul>
-                {categories.map((category) => (
-                    <li
-                        key={category.title}
-                    >
-                        <span>
-                            {category.title}
-                        </span>
-                    </li>
-                ))}
-            </ul>
+        <header className="container">
+            <div className="row">
+                <h1 className="col-4">ZS</h1>
+                <div className="col-8">
+                    <ul className="row">
+                        {categories.map((category) => (
+                            <li
+                                className="col"
+                                key={category.title}
+                            >
+                                <span>
+                                    {category.title}
+                                </span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
         </header>
     )
 };
