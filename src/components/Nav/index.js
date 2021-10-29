@@ -2,7 +2,9 @@ import React from 'react';
 
 function Nav(props) {
     const {
-        categories = []
+        categories = [],
+        currentCategory,
+        setCurrentCategory
     } = props;
 
     return (
@@ -16,7 +18,10 @@ function Nav(props) {
                                 className="col"
                                 key={category.title}
                             >
-                                <span>
+                                <span onClick={() => {
+                                    setCurrentCategory(category)
+                                    console.log(currentCategory.title)
+                                }}>
                                     {category.title}
                                 </span>
                             </li>

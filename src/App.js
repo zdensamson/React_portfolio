@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Nav from './components/Nav';
+import Gallery from './components/Gallery'
 
 function App() {
   const categories = [
@@ -31,6 +32,8 @@ function App() {
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
       ></Nav>
+      <Gallery currentCategory={currentCategory}></Gallery>
+
     </div>
   );
 }
