@@ -13,6 +13,10 @@ function App() {
     {
       title: 'resume',
       description: 'Let\'s keep it professional'
+    },
+    {
+      title: 'contact',
+      description: 'I\'d love to hear from you!'
     }
   ];
 

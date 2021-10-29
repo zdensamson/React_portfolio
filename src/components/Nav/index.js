@@ -7,6 +7,7 @@ function Nav(props) {
 
     return (
         <header>
+            <h1>ZS</h1>
             <ul>
                 {categories.map((category) => (
                     <li

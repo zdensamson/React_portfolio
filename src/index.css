@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #e2e2e2;
+  --secondary-color: #b2b2b2;
+  --tertiary-color: white;
+  --fourth-color: #f0f0f0;
+  --fonty-font-family: 'Open Sans',sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +19,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* HEADER & NAV STYLE */
+header {
+  display:flex;
+  justify-content: space-between;
+  height: 75px;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  background-color: var(--tertiary-color);
+}
+
+header h1 {
+  margin: 15px 15px 15px 30px;
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 15px 30px 15px 15px
+}
+
+header ul li span {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+header ul li span:hover {
+  font-weight: bolder;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
