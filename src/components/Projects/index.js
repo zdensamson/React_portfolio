@@ -41,9 +41,15 @@ function Projects(props) {
     ];
 
     return (
-        <section>
-            Projects
-        </section>
+        // <section className="container">
+            <div className="row">
+                {projects.map((project) => (
+                    <div key={project.name} className="col-5 proj">
+                        {project.name}
+                    </div>
+                ))}
+            </div>
+        // </section>
     )
 };
 

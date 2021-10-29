@@ -91,3 +91,11 @@ header ul li span:hover {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+.proj{
+  height: 50px;
+  margin: 1px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
