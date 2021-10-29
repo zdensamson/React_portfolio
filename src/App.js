@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/Nav';
 
 function App() {
+  const categories = [
+    {
+      title: 'my_code',
+      description: 'Projects'
+    },
+    {
+      title: 'me',
+      description: 'A little about myself'
+    },
+    {
+      title: 'resume',
+      description: 'Let\'s keep it professional'
+    }
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav
+        categories={categories}
+      ></Nav>
     </div>
   );
 }
