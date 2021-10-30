@@ -41,15 +41,21 @@ function Projects(props) {
         },
         {
             name: 'E-commerce Back End',
+            description: 'mySQL2 model, Sequelize queries, & express API endpoints',
+            link: 'https://github.com/zdensamson/E-commerce_BE',
             img: 'mobile-shopping.png'
         },
         {
             name: 'Password generator',
-            img: 'password.png'
+            description: 'Choose character types & length, and let my algorithm do the rest.',
+            img: 'password.png',
+            link:'https://github.com/zdensamson/Password_generator'
         },
         {
             name: 'Budget PWA',
-            img: 'budgeting.png'
+            description: 'Track your budget online or offline',
+            img: 'budgeting.png',
+            link: 'https://github.com/zdensamson/Password_generator'
         }
 
     ];
