@@ -17,7 +17,7 @@ function Projects(props) {
             img: 'analytics.png'
         },
         {
-            name: 'NoSQL Social Network API',
+            name: 'NoSQL API',
             description: 'Simple mocked BE for a social network application',
             tech: [
                 'MongoDB',
@@ -25,11 +25,11 @@ function Projects(props) {
                 'express'
             ],
             link: 'https://github.com/zdensamson/NoSQL-social-network-API',
-            img: 'analytics.png'
+            img: 'network.png'
         },
         {
             name: 'Food Junkies',
-            description: 'Tell us what food you have left over, and we\'ll tell you what you can make with it!',
+            description: 'Pass in an ingredient, we pass back recipes',
             tech: [
                 'JavaScript',
                 'jQuery',
@@ -37,19 +37,19 @@ function Projects(props) {
                 'Third-party APIs'
             ],
             link: 'https://zdensamson.github.io/food_junkies/',
-            img: 'analytics.png'
+            img: 'cooking.png'
         },
         {
             name: 'E-commerce Back End',
-            img: 'analytics.png'
+            img: 'mobile-shopping.png'
         },
         {
             name: 'Password generator',
-            img: 'analytics.png'
+            img: 'password.png'
         },
         {
-            name: 'Team profile generator',
-            img: 'analytics.png'
+            name: 'Budget PWA',
+            img: 'budgeting.png'
         }
 
     ];
