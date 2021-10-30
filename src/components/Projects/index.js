@@ -43,11 +43,13 @@ function Projects(props) {
     return (
         // <section className="container">
             <div className="row">
-                {projects.map((project) => (
-                    <div key={project.name} className="col-5 proj">
-                        {project.name}
-                    </div>
-                ))}
+                    {projects.map((project) => (
+                        <div className="col-4 mx-auto proj-holder">
+                            <div key={project.name} className="proj">
+                                {project.name}
+                            </div>
+                        </div>
+                    ))}
             </div>
         // </section>
     )

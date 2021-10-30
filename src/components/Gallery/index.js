@@ -5,7 +5,7 @@ import Projects from '../Projects';
 function Gallery(props) {
     const { currentCategory } = props;
     return (
-        <section>
+        <section className="container">
             {currentCategory.title === 'me' && <About/>}
             {currentCategory.title === 'my_code' && <Projects/>}
 

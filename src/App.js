@@ -26,13 +26,15 @@ function App() {
 
 
   return (
-    <div>
+    <div className="root">
       <Nav
         categories={categories}
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
       ></Nav>
-      <Gallery currentCategory={currentCategory}></Gallery>
+      <main className="vertical-center">
+        <Gallery currentCategory={currentCategory}></Gallery>
+      </main>
 
     </div>
   );
