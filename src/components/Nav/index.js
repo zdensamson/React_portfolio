@@ -10,12 +10,12 @@ function Nav(props) {
     return (
         <header className="container">
             <div className="row">
-                {/* <h1 className="col-1 mx-auto">ZS</h1> */}
-                <div className="col-11 mx-auto">
+                <h1 className="col-3 mx-auto">ZS</h1>
+                <div className="col-9 mx-auto">
                     <ul className="row">
                         {categories.map((category) => (
                             <li
-                                className="col-3"
+                                className="col-3 mx-auto"
                                 key={category.title}
                             >
                                 <span onClick={() => {
