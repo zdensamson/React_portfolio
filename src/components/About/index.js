@@ -13,10 +13,6 @@ function About(props) {
                         <p>
                             I'm currently enrolled in the University of Arizona's full stack web development bootcamp, and I will be graduating in November 2021. My intention is to take these new skills to land an entry level full stack software develpment job.
                         </p>
-                        <h3>SKILLS (<span>so far</span> )</h3>
-                        <p>
-                            JavaScript | SQL | MERN stack
-                        </p>
                     </div>
                     <div className="imgHolder">
                         <img src={require("../../assets/images/profile_pic.jpg").default} alt=""/>

@@ -15,10 +15,11 @@ function Nav(props) {
                     <ul className="row">
                         {categories.map((category) => (
                             <li
-                                className="col-3 mx-auto"
+                                className={`col-lg-3 col-md-2 col-sm-1 mx-auto`}
                                 key={category.title}
                             >
-                                <span onClick={() => {
+                                <span className={`${currentCategory.title === category.title && 'navActive'}`} 
+                                onClick={() => {
                                     setCurrentCategory(category)
                                     console.log(currentCategory.title)
                                 }}>

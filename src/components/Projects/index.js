@@ -64,7 +64,7 @@ function Projects(props) {
         // <section className="container">
             <div className="row">
                     {projects.map((project) => (
-                        <a className="row col-4 mx-auto proj-holder" href={project.link} key={project.name} target="_blank">
+                        <a className="row col-lg-4 col-md-2 col-sm-1 mx-auto proj-holder" href={project.link} key={project.name} target="_blank">
                             <div  className=" col-6 projCopy">
                                 <span className="projTitle">{project.name}</span>
                                 <span className="projTitle">______</span>
