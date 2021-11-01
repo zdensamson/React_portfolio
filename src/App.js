@@ -31,6 +31,7 @@ function App() {
         categories={categories}
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
+        className="navHeader"
       ></Nav>
       <main className="vertical-center">
         <Gallery currentCategory={currentCategory}></Gallery>
