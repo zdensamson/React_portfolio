@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery'
+import Footer from './components/Footer';
 
 function App() {
   const categories = [
@@ -36,6 +37,7 @@ function App() {
       <main className="vertical-center">
         <Gallery currentCategory={currentCategory}></Gallery>
       </main>
+      <Footer></Footer>
 
     </div>
   );

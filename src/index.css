@@ -23,6 +23,7 @@ code {
 
 /* HEADER & NAV STYLE */
 .navHeader {
+  
   position: sticky;
   z-index: 9999;
   background-color: var(--tertiary-color);
@@ -142,4 +143,37 @@ header ul li span:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  font: --fonty-font-family;
+
+
+  background-color: var(--fourth-color);
+  margin-top: 1rem;
+  /* padding: 1rem; */
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  max-height: 50%;
+  width: 100%;
+  min-width: 100%;
+}
+
+footer img {
+  max-width: 33%;
+}
+
+.attribution {
+  font-style: var(--fonty-font-family);
+  color: var(--secondary-color);
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+.attribution a:hover {
+  color: black
 }
